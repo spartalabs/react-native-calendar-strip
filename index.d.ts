@@ -36,7 +36,7 @@ interface IDayComponentProps {
   enabled: boolean;
   showDayName?: boolean;
   showDayNumber?: boolean;
-  onDateSelected?: (event: GestureResponderEvent) => void;
+  onDateSelected?: (date: Moment) => void;
   calendarColor?: string;
   dateNameStyle?: string;
   dateNumberStyle?: string;
